@@ -3,7 +3,7 @@ This code is a web API made with .NET Core and access a SQL Server database.
 
 ## Requirements for Installation
 - Visual Studio 2019 or VS Code
-- .NET Core 3.1framework
+- .NET Core 3.1 framework
 - SQL Server 2019
 
 ## Installation
