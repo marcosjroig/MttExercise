@@ -14,7 +14,9 @@ This repo has 2 folders:
 ## Endpoints 
 
 The endpoints in my local environments are these, you will probably have different ports depending of how you run or deploy the solution:
+
 https://localhost:44332/api/categories
+
 https://localhost:44332/api/products/1
 
 ## Considerations about the code
