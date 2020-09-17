@@ -19,6 +19,8 @@ https://localhost:44332/api/categories
 
 https://localhost:44332/api/products/1
 
+By default, when you execute the API, the first URL appears available and you can see inmediatelly the result in the browser if you have everything configured well.
+
 ## Considerations about the code
 - I didn't create a client application to consume the API, but it can be easly tested in the browser by doing copy past of the URL or using tools like postman.
 - There are Stored procedures to provide the data from the Database, but I didn't use then in my code as I used datasets and EF Core. This was just for lack of time, I considered a bit less important this part of the code as there are many ORM available in the market and also lot of example code about how the create the DAL (data access layer).
@@ -28,3 +30,6 @@ https://localhost:44332/api/products/1
 - The code is short and clear separation of concerns.
 - For testing I used XUnit framework and I tested the services and controllers.
 - Regarding the DB: I created two tables: Category and Product related between them with a forign key, and both tables have a Primary Key and are indexed.
+
+## Connection string
+You have to change the connection string of the file __appsettings.json__ in order to reflect the database and server that you are using
